@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.sub-container-1{
+    width: 40%;
+    margin: 20px 0;
+    padding: 100px;
+    border: 1px solid black;
+}
+.sub-container-1 h1{
+    
+    margin: 0 auto;
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+.sub-container-2{
+    margin: 20px 0;
+    /* padding: 100px; */
+}
+input[type=text], select {
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
